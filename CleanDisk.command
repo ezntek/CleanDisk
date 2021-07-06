@@ -1,7 +1,7 @@
 clear
 echo '$$$$$$$$$$$$$$$$$$$$$$$$$$$$$'
 echo '$ CleanDisk By EasonTek2398 $'
-echo '$ Version 1.0.1 $$$$$$$$$$$$$'
+echo '$$$$$$$ Version 1.0.1 $$$$$$$'
 echo '$$$$$$$$$$$$$$$$$$$$$$$$$$$$$'
 echo
 echo
