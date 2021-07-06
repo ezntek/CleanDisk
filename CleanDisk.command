@@ -1,7 +1,7 @@
 clear
 echo '$$$$$$$$$$$$$$$$$$$$$$$$$$$$$'
 echo '$ CleanDisk By EasonTek2398 $'
-echo '$ Version 1.0 $$$$$$$$$$$$$$$'
+echo '$ Version 1.0.1 $$$$$$$$$$$$$'
 echo '$$$$$$$$$$$$$$$$$$$$$$$$$$$$$'
 echo
 echo
@@ -15,7 +15,7 @@ echo 'Exit by pressing Control+C'
 echo
 echo 'What to do?'
 read task
-if [ $task == '1' ]
+if [ $task = '1' ]
 then
 	echo STARTING
     echo "You may need to enter your Admin account Password (It won't be shown)"
@@ -26,7 +26,7 @@ then
     echo DONE
 	sleep 2
 	exit 0
-elif [ $task == '2' ]
+elif [ $task = '2' ]
 then
 	echo 'Enter your Admin Account password (Password will not be shown, May need to be done multiple times)'
 	sudo rm -rfv ~/Library/Cache/*
@@ -35,7 +35,7 @@ then
 	echo DONE
 	sleep 2
 	exit 0
-elif [ $task == '3' ]
+elif [ $task = '3' ]
 then
 #
 	echo PLEASE CLOSE ALL APPS, THIS WILL FILL UP THE ENTIRE DISK TO FORCE THE PURGEABLE
@@ -56,7 +56,7 @@ then
     done
     rm -rfv *
     #
-elif [ $task == '4' ]
+elif [ $task = '4' ]
 then
     echo 'You may need to enter your admin account password (Will not be shown)'
     #snap=$(sudo tmutil listlocalsnapshots / | grep com | sed 's/com.apple.TimeMachine.//' | sed 's/.local//' | wc -l)
@@ -68,7 +68,7 @@ then
     echo DONE
     sleep 2
     exit 0
-elif [ $task == '5' ]
+elif [ $task = '5' ]
 then
     echo STARTING
     echo "You may need to enter your Admin account Password (It won't be shown)"
