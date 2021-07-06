@@ -11,9 +11,10 @@ echo '2: Clean Caches'
 echo '3: Clean Purgeable Space'
 echo '4: Clean Time Machine Snapshots (Other or System section of About my mac storage)'
 echo '5: Clean as much as possible'
+echo
 echo 'Exit by pressing Control+C'
 echo
-echo 'What to do?'
+echo 'What to do? (Enter Number, Reference table above)'
 read task
 if [ $task = '1' ]
 then
