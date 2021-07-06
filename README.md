@@ -12,12 +12,20 @@ When there is a prompt saying (What to Do?) just enter the corresponding number 
 
 eg. 
 Welcome to CleanDisk!
+
 1: Clean Temp Folder
+
 2: Clean Caches
+
 3: Clean Purgeable Space
+
 4: Clean Time Machine Snapshots (Other or System section of About my mac storage)
+
 5: Clean as much as possible
+
 Exit by pressing Control+C
 
+
 What to do?
+
 *Enter your choice here*
